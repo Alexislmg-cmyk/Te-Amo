@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Karina ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="particles" id="particles"></div>
+
+    <!-- ESCENA 1 -->
+    <section id="inicio" class="escena activa">
+        <div class="contenido">
+            <h1 class="nombre">Karina</h1>
+            <p class="indicacion">Toca aquí, princesa ❤️</p>
+            <button class="corazon-inicio" onclick="comenzar()">
+                ♥
+            </button>
+        </div>
+    </section>
+
+    <!-- ESCENA 2 -->
+    <section id="defectos" class="escena">
+        <div class="contenido">
+            <p class="mensaje-defectos">
+                Tengo muchos defectos y errores,
+                me enojo muy fácil...
+                <br><br>
+                pero al menos sé algo.
+            </p>
+
+            <div id="corazones" class="corazones"></div>
+        </div>
+    </section>
+
+    <!-- ESCENA 3 -->
+    <section id="promesa" class="escena">
+        <div class="contenido">
+            <p class="mensaje-promesa">
+                Lo que sí sé es que siempre voy a estar
+                para ti y contigo.
+
+                <br><br>
+
+                No importa si estamos peleados,
+                si tenemos un mal día o si las cosas
+                no salen como esperamos...
+
+                <br><br>
+
+                Yo voy a estar ahí.
+            </p>
+
+            <button class="siguiente" onclick="finalizar()">
+                Continuar ❤️
+            </button>
+        </div>
+    </section>
+
+    <!-- ESCENA FINAL -->
+    <section id="final" class="escena">
+        <div class="contenido">
+            <div class="corazon-final">♥</div>
+            <h1>Mi princesa</h1>
+            <p>Te amo muchísimo ❤️</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
